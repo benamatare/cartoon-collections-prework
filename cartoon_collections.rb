@@ -6,8 +6,7 @@
   end
 
 def summon_captain_planet array# code an argument here
-array.each do |value|
-  return value.upcase + "!"
+  array.map! {|value| value.upcase + "!"}
 end
 end
 
