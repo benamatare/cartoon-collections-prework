@@ -7,7 +7,7 @@
 
 def summon_captain_planet array# code an argument here
 array.each do |value|
-  value.upcase + "!"
+  return value.upcase + "!"
 end
 end
 
