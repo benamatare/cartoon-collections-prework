@@ -6,7 +6,7 @@
   end
 
 def summon_captain_planet array# code an argument here
-  array.map! {|value| value.propercase}
+  array.map! {|value| value.upcase}
   array.map! {|value| value + "!"}
 end
 
